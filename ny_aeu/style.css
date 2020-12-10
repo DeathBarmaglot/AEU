@@ -4,7 +4,7 @@
 
   .snowflake {
   color: #fff;
-  font-size: 1em;
+  font-size: 1.3em;
   font-family: Arial;
   
  
@@ -20,10 +20,10 @@
 0%{top:-10%; font-size: 0em;
 opacity: 0;}
 
-5% {font-size: 1.3em;} 
+5% {font-size: 1.5em;} 
 10% {opacity: 1;} 
-50% {opacity: 0;} 
-60% {opacity: 1;font-size: 0em;} 
+50% {opacity: 0;font-size: 0em;} 
+60% {opacity: 1;} 
 90% {opacity: 1;} 
 99% {opacity: 0;} 
 100%{top:100%; font-size: 1.2em;}
@@ -32,8 +32,8 @@ opacity: 0;}
 @keyframes snowflakes-shake{
 	
 	0%{transform: translateX(0px) rotateY(0deg)}
-	50%{transform: translateX(80px) rotateY(180deg)}
-	100%{transform: translateX(0px) rotateY(360deg)}}
+	50%{transform: translateX(80px) rotateY(-180deg)}
+	100%{transform: translateX(0px) rotateY(-360deg)}}
 .snowflake{position:fixed;top:-10%;z-index:9999;
 -webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;
 	-webkit-animation-name:snowflakes-fall, snowflakes-shake;
