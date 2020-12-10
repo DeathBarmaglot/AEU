@@ -29,9 +29,9 @@ opacity: 0;}
 ;}
   
 @keyframes snowflakes-shake{
-	0%{transform:rotateX(0deg)}
+	0%{transform:rotateY(0deg)}
 
-100%{transform:rotateX(360deg)}}
+100%{transform:rotateZ(360deg)}}
 .snowflake{position:fixed;top:-10%;z-index:9999;
 -webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;
 	-webkit-animation-name:snowflakes-fall, snowflakes-shake;
