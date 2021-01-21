@@ -88,7 +88,7 @@ var symbols = {
                 type: 'image',
                 rect: ['-916px', '243px','2200px','320px','auto', 'auto'],
                 fill: ["rgba(0,0,0,0)",im+"3.svg",'0px','0px'],
-                transform: [[],['-90'],[],['0.15','0.15']]
+                transform: [[],['-90'],[],['0.13','0.13']]
             }],
             symbolInstances: [
 
@@ -109,9 +109,9 @@ var symbols = {
             ],
             "${__3}": [
                 ["style", "top", '243px'],
-                ["transform", "scaleY", '0.15'],
+                ["transform", "scaleY", '0.13'],
                 ["transform", "rotateZ", '-90deg'],
-                ["transform", "scaleX", '0.15'],
+                ["transform", "scaleX", '0.13'],
                 ["style", "left", '-900px']
             ],
             "${__2}": [
@@ -186,14 +186,14 @@ var symbols = {
             duration: 11000,
             autoPlay: true,
             timeline: [
-                { id: "eid76", tween: [ "style", "${_c}", "opacity", '1', { fromValue: '0'}], position: 3620, duration: 394 },
-                { id: "eid85", tween: [ "style", "${_c}", "opacity", '1', { fromValue: '0'}], position: 5548, duration: 394 },
-                { id: "eid86", tween: [ "style", "${_c}", "opacity", '1', { fromValue: '0'}], position: 7750, duration: 394 },
-                { id: "eid77", tween: [ "style", "${_c}", "opacity", '0', { fromValue: '1'}], position: 10360, duration: 548 },
+                { id: "eid76", tween: [ "style", "${_c}", "opacity", '1', { fromValue: '0'}], position: 3384, duration: 394 },
+                { id: "eid85", tween: [ "style", "${_c}", "opacity", '1', { fromValue: '0'}], position: 5366, duration: 394 },
+                { id: "eid86", tween: [ "style", "${_c}", "opacity", '1', { fromValue: '0'}], position: 7982, duration: 394 },
+                { id: "eid77", tween: [ "style", "${_c}", "opacity", '0', { fromValue: '1'}], position: 10250, duration: 548 },
                 { id: "eid81", tween: [ "transform", "${_b2}", "scaleX", '0.05', { fromValue: '0'}], position: 3300, duration: 356 },
                 { id: "eid51", tween: [ "style", "${_t}", "left", '-496px', { fromValue: '-384px'}], position: 3148, duration: 352 },
                 { id: "eid84", tween: [ "style", "${_b2}", "opacity", '1', { fromValue: '0'}], position: 3148, duration: 356 },
-                { id: "eid87", tween: [ "style", "${_b2}", "opacity", '0', { fromValue: '1'}], position: 10360, duration: 548 },
+                { id: "eid87", tween: [ "style", "${_b2}", "opacity", '0', { fromValue: '1'}], position: 10250, duration: 548 },
                 { id: "eid14", tween: [ "style", "${_lo}", "opacity", '1', { fromValue: '0'}], position: 110, duration: 548 },
                 { id: "eid59", tween: [ "style", "${_lo}", "opacity", '0', { fromValue: '1'}], position: 10250, duration: 548 },
                 { id: "eid83", tween: [ "transform", "${_b2}", "scaleY", '0.05', { fromValue: '0'}], position: 3300, duration: 356 },
@@ -206,7 +206,7 @@ var symbols = {
                 { id: "eid11", tween: [ "style", "${__1}", "left", '-1119px', { fromValue: '-999px'}], position: 3000, duration: 384 },
                 { id: "eid12", tween: [ "style", "${__1}", "left", '-1287px', { fromValue: '-1119px'}], position: 5000, duration: 548 },
                 { id: "eid66", tween: [ "style", "${__2}", "left", '-2205px', { fromValue: '-2065px'}], position: 5366, duration: 384 },
-                { id: "eid67", tween: [ "style", "${__2}", "left", '-2065px', { fromValue: '-2205px'}], position: 7434, duration: 548 },
+                { id: "eid67", tween: [ "style", "${__2}", "left", '-2315px', { fromValue: '-2205px'}], position: 7434, duration: 548 },
                 { id: "eid2", tween: [ "style", "${__3}", "left", '-1039px', { fromValue: '-900px'}], position: 8000, duration: 336 },
                 { id: "eid4", tween: [ "style", "${__3}", "left", '-1199px', { fromValue: '-1039px'}], position: 10000, duration: 548 },
                 { id: "eid47", tween: [ "style", "${_t}", "top", '-1629px', { fromValue: '-1622px'}], position: 0, duration: 375 },
